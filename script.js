@@ -5,7 +5,7 @@ for (let i = 0; i < 5; i++) {
 
   const promise = new Promise((resolve) => {
     setTimeout(() => {
-      resolve(Promise ${i + 1} resolved in ${time} seconds);
+      resolve(`Promise ${i + 1} resolved in ${time} seconds`);
     }, time * 1000);
   });
 
